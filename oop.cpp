@@ -4,6 +4,7 @@ using namespace std;
 class Planet{
     private:
         float gravitasi;
+        
     public:
         string nama;
         float diameter;
@@ -28,5 +29,7 @@ int main()
     venus.inputdata();
     cout << "namanya adalah " << venus.nama << endl;
     cout << "diameter adalah " << venus.nama << endl;
+
+    venus.displaydata();
 
 }
